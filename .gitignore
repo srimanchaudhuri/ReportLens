@@ -1,0 +1,7 @@
+.env
+.venv
+__pycache__
+.DS_Store
+parsed_documents
+sample_documents
+parsed_jobs

@@ -7,7 +7,13 @@ authors = [
     { name = "sriman", email = "srimanchaudhuri@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "llama-cloud-services>=0.6.94",
+    "llama-index>=0.14.25",
+    "llama-parse>=0.6.94",
+    "pydantic>=2.13.5",
+    "pydantic-settings>=2.15.0",
+]
 
 [project.scripts]
 reportlens = "reportlens:main"
